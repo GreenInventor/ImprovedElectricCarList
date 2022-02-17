@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Electric Car List</title>
+</head>
+<body>
+	<h1>Add a Electric Car:</h1>
+	<form action="addCarServlet" method="post">
+	<p>Make: <input type="text" name="make"></p>
+	<p>Model: <input type="text" name="model"></p>
+	<p>Year: <input type="number" name="year"></p>
+	<p>Range: <input type="number" name="range"> miles</p>
+	<p>Top Speed: <input type="number" name="topspeed"> MPH</p>
+	<p>0-60 Acceleration: <input type="number" name="zerosixty"> seconds</p>
+	<p>Charge Speed: <input type="number" name="chargepower">W</p>
+	<p>Price: <input type="number" name="price">$</p>
+	<input type="submit" value="Add Car">
+	<input type="reset" value="Reset">
+	</form><br>
+	<a href = "viewAllCarsServlet">View all electric cars</a>
+</body>
+</html>
