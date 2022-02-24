@@ -21,6 +21,6 @@
 	<input type="submit" value="Save Changes">
 	<input type="reset" value="Reset">
 	</form><br>
-	<a href = "viewAllCarsServlet">View all electric cars</a>
+	<a href = "viewAllCarsServlet">View all Electric Vehicles</a>
 </body>
 </html>

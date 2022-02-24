@@ -30,5 +30,6 @@
 	<input type="submit" value="Edit Car" name="doThisToCar">
 	<input type="submit" value="Delete Car" name="doThisToCar">
 	</form>
+	<br><a href="viewAllDealersServlet">View all Dealerships</a>
 </body>
 </html>
